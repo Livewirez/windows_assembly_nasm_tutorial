@@ -21,13 +21,14 @@ vcvars32
 ```
 
 ```bash
-link /entry:main /subsystem:windows hello_world.obj /LIBPATH:"{location of user32.lib}" /LIBPATH:"{location of kernel32.lib}" user32.lib kernel32.lib
+link /entry:main /subsystem:windows hello_world.obj /LIBPATH:"{location of 32-bit user32.lib}" /LIBPATH:"{location of 32-bit kernel32.lib}" user32.lib kernel32.lib
 ```
 
 ```bash
 link /entry:main /subsystem:windows hello_world.obj /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x86" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x86" user32.lib kernel32.lib
 ```
 
+* `/subsystem:windows` is optional
 
 Run the program
 
