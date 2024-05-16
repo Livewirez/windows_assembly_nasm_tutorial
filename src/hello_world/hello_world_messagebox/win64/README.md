@@ -39,4 +39,4 @@ Run the program
 ```
 
 # Should Display
-![Image](/src/hello_world_messagebox/win64/images/hello_world64.JPG "Hello World")
+![Image](/src/hello_world/hello_world_messagebox/win64/images/hello_world64.JPG "Hello World")

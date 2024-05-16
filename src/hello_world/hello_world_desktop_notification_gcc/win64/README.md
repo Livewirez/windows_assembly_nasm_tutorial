@@ -43,6 +43,6 @@ Run the program
 ```
 
 # Should Display
-![Image](/src/hello_world_desktop_notification_gcc/win64/images/hello_world64_desktop_notification_gcc1.JPG "Hello World")
+![Image](/src/hello_world/hello_world_desktop_notification_gcc/win64/images/hello_world64_desktop_notification_gcc1.JPG "Hello World")
 
-![Image](/src/hello_world_desktop_notification_gcc/win64/images/hello_world64_desktop_notification_gcc2.JPG "Hello World Shell Notification")
+![Image](/src/hello_world/hello_world_desktop_notification_gcc/win64/images/hello_world64_desktop_notification_gcc2.JPG "Hello World Shell Notification")
