@@ -4,7 +4,7 @@
 ; Date: 16/05/2024
 ;
 ; Assembled using Nasm (Netwide Assembler)
-; Linked with Microsoft Linker from Visual Studio 2022
+; Linked with The GCC (GNU Compiler Collection)
 ; Using MessageBox from windows api to display string https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messageboxa
 
 
