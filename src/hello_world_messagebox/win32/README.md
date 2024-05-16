@@ -36,4 +36,4 @@ Run the program
 ```
 
 # Should Display
-![Image](/images/hello_world.JPG "Hello World")
+![Image](/win32/images/hello_world.JPG "Hello World")
