@@ -9,6 +9,34 @@ Only on Windows
 
 Also note the 64 bit registers instead of pushing to the stack like 32-bit
 
+## External Functions
+
+* `show_desktop_notification_prog_name`:
+
+```c
+void show_desktop_notification_prog_name(const char* program_name, const char* message);
+```
+
+* `MessageBoxA`:
+
+```c
+int MessageBoxA(
+  [in, optional] HWND   hWnd,
+  [in, optional] LPCSTR lpText,
+  [in, optional] LPCSTR lpCaption,
+  [in]           UINT   uType
+);
+```
+
+* `ExitProcess`:
+
+```c
+void ExitProcess(
+  [in] UINT uExitCode
+);
+```
+
+
 ## Assembling
 
 * Make sure you've installed [The Netwide Assembler](https://www.nasm.us)
