@@ -17,7 +17,7 @@ section .bss
 
 section .data
     hello db "Hello, World", 0
-    hello_length equ $-hello
+    hello_length equ $-hello ; Length of hello string
 
     STD_OUTPUT_HANDLE equ -11  ; -11 is the value for STD_OUTPUT_HANDLE
 
