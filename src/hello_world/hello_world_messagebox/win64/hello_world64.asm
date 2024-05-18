@@ -18,7 +18,7 @@ main:
     sub rsp, 28h ; Allocate shadow space for Windows x64 calling convention
     mov rcx, 0   ; hWnd
     ;mov rdx, 0   ; lpText
-    lea rdx, [rel hello] ; lpCaption
+    lea rdx, [rel hello] ; lpText
     lea r8, [rel dialog_box_title] ; lpCaption
     mov r9d, 0   ; uType
     call MessageBoxA
